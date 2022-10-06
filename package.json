@@ -1,0 +1,27 @@
+{
+  "name": "tmosh_class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "get-age-lib": "^1.0.0",
+    "helmet": "^5.1.1",
+    "joi": "^17.6.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0",
+    "underscore": "^1.13.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
